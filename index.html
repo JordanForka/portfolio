@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan Forka - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!--<script defer src="nav.js"></script>-->
+
+</head>
+<body>
+    <header>
+        <div class="site-header-mask" >
+            <h1 class="animate__animated animate__slideInDown">Jordan Forka</h1>
+            <h3 style="text-align: center;" class="animate__animated animate__fadeInLeft">Trying to make an <b>Impact</b></h3>
+        </div>
+        <div>
+            <a href="#main-content"><div class="scroll-down"></div></a>
+        </div>
+
+    </header>
+
+    <section class="about">
+        <div class="about-title " style="padding: 120px; ">
+            <div class="container" style="text-align: center;">
+                <h2 class="animate__animated animate__backInLeft animate__delay-1s">Hi, I'm <span style="color: rgb(236, 12, 94);">Jordan!</span></h2>
+                <p class="animate__animated animate__backInLeft animate__delay-2s">Hello, my name is Jordan and I'm a year 10 student currently enrolled at Saint Francis Xavier.
+                    I am profficient in Python, C#, Html, CSS and Javascript and I enjoy working on networking based
+                    projects. Here are a few of my projects! I am hoping to pursue Data Science and Networking in College😁
+                </p>
+            </div>
+
+            <div class="spacer" style="margin-top: 50px;"></div>
+                <h3>I'm a&nbsp;<span class="auto-type" style="color: yellow;"></span></h3>
+            
+        </div>
+        <div class="about-pages" id="main-content">
+            <div class="mars">
+                <h2>Grapple IO</h2>
+                <div class="glass">
+                    <p>A Grapple Gun Game built in C# with the Unity Framework.<br> An applied use of <b>math, physics and programming</b> was used in order to make the grapple gun function and simulate correctly in the 3d environment</p>
+                    <video width="320" height="240" controls>
+                        <source src="gunprev.mov" type="video/mp4">
+                      Your browser does not support the video tag.
+                      </video>
+                </div>
+                <a  href="https://jordanforka.itch.io/grappleio2" target="__blank" style="text-decoration: none;"><button class="button-87" role="button">Learn More</button></a>
+            </div>
+            <div class="mars">
+                <h2>Password Generator</h2>
+                <div class="glass">
+                    <p>With all the recent hacking and phishing scandals its imperative to maintain secure access to your account, and a one important factor that contributes the security is the password used
+                        . This password generator written in python does just that, allowing you to state a password length and an amount of passwords to be generated.
+                        <img src="preview.png" alt="" style="margin-top: 10px; border-radius: 10px;">
+                        <br>This script was built in python using several security based libraries.
+                    </p>
+                </div>
+                <a href="https://github.com/JordanForka/pwdgenerator" target="__blank" style="text-decoration: none;"><button class="button-87" role="button">Learn More</button></a>
+            </div>
+            <div class="mars">
+                <h2>Culture Kings WebScraper</h2>
+                <div class="glass">
+                    <p>A web scraper built in python that can track sale prices among various retail stores such as culture kings and rebelsport
+                        This program required extensive knowledge as to how an html website is built and how to access certain tags and classes
+                        from another point on the internet.
+                    </p>
+                    <div class="spacer" style="margin-top: 50px;"></div>
+                    <img src="prev2.png" alt="">
+                </div>
+                <a  href="https://github.com/JordanForka/WebScraper" style="text-decoration: none;"><button class="button-87" role="button">Learn More</button></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Made with Love by Jordan Forka❤️</h2>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="app.js"></script>
+    <script>
+        var typed= new Typed(".auto-type",{
+            strings: ["Developer","Cybersecurity Programmer","Web Designer","Python Developer","Game Developer"],
+            typeSpeed: 120,
+            backSpeed: 150,
+            loop: true
+        } );
+
+    </script>
+</body>
+</html>
